@@ -1,0 +1,274 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 110px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Colour Variables START */
+:root {
+  --green: #21AB34;
+  --orange: #F78300;
+  --lime-green: #C7FF4D;
+  --teal: #2ED6DB;
+  --blue: #3D15DD;
+  --red: #DC163D;
+  --pink: #E740B7;
+  --purple: #8700FF;
+  --black-grey: #202020;
+}
+/* Colours Variables END */
+
+.container-fluid {
+  padding: 0 !important;
+  overflow: hidden;
+}
+.header .top-banner {
+  background-color: var(--lime-green);
+}
+.header h4 {
+  color: var(--blue);
+  font-weight: 600;
+  letter-spacing: .75px;
+}
+
+.header .img-div {
+  width: 100%;
+}
+
+header .img-div img {
+  width: 100%;
+}
+
+.our-mission .banner {
+  background-color: var(--orange);
+}
+
+.our-mission h3 {
+  color: #FFFFFF;
+}
+
+.our-mission img {
+  width: 100%
+}
+
+.challenges .banner {
+  background-color: var(--pink);
+}
+
+.challenges .banner h3 {
+  color: #FFFFFF;
+}
+
+.challenges .img-div {
+  width: 100%;
+  position: relative;
+}
+
+.challenges .img-div img {
+  width: 100%;
+}
+
+/* Button START */
+.button {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.75em 1em;
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s linear;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  top: 0;
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  border-radius: 5px;
+}
+
+.btn-green {
+  background-color: #6cb800;
+  border: 5px solid #3db500;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+}
+.btn-green:hover {
+  background-color: #6cb800;
+}
+/* Button END */
+
+.challenges .img-div h4 {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.challenges-copy {
+  background-color: var(--green);
+}
+.challenges h6 {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.now-then .banner {
+  background-color: var(--purple);
+}
+
+.now-then h3 {
+  color: #FFFFFF;
+}
+
+.now-then img {
+  width: 100%
+}
+
+.now-then .sub-banner {
+  background-color: var(--green);
+}
+
+.now-then h4 {
+  color: #FFFFFF;
+}
+
+.solution .banner {
+  background-color: var(--orange);
+}
+
+.solution h3 {
+  color: #FFFFFF;
+}
+
+.solution-copy {
+  background-color: var(--pink);
+}
+
+.solution-copy h6 {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.download-div {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/download-app.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.download h1 {
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.download-btn-green {
+  background-color: #6cb800;
+  border: 5px solid #3db500;
+  padding: 30px 90px;
+  font-size: 45px;
+  width: 100%;
+}
+
+.download .banner {
+  background-color: var(--red);
+}
+
+.download h4 {
+  color: #FFFFFF;
+}
+
+.email-updates {
+  background-color: var(--lime-green);
+  padding: 30px 20%;
+}
+
+.email-updates-square {
+  background-color: var(--purple);
+  border-radius: 15px;
+  padding: 40px;
+  color: #FFFFFF;
+}
+
+.text-left {
+  text-align: left !important;
+}
+.fa-lock {
+  margin-right: 10px;
+}
+
+label[for=name], label[for=email] {
+  color: var(--black-grey);
+}
+
+.asterisk {
+  color: var(--red);
+  margin-left: 5px;
+  text-align: left !important;
+}
+
+.btn-black-grey {
+  background-color: var(--black-grey);
+  border: 5px solid var(--black-grey);
+  transition: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin: 0 auto !important;
+}
+
+.btn-black-grey:hover {
+  background-color: var(--pink);
+  border: 5px solid var(--pink);
+}
+
+.footer {
+  background-color: var(--orange);
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.footer a p {
+  color: #FFFFFF;
+}
