@@ -277,89 +277,95 @@ label[for=name], label[for=email] {
 
 /* Mobile Styling */
 
-.header span.mobile-only {
-  font-size: 19px !important;
-  display: block;
+@media (min-width: 320px)  {
+  .header span.mobile-only {
+    font-size: 19px !important;
+    display: block;
+  }
+  
+  .header .mobile-only img {
+    display: block;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .social-media-feed .fa {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 25px;
+  }
+  
+  .social-media-feed .fa:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .social-media-feed .fa-facebook-f {
+    padding: 10px 14px;
+  }
+  
+  .homepage .left-img {
+    margin-right: 10px;
+  }
+  
+  .homepage .right-img {
+    margin-left: 10px;
+  }
+  
+  .challenges .btn-green {
+    top: 90%;
+    left: 22%;
+    z-index: 3;
+  }
+  
+  .challenges h4 {
+    font-size: 18px !important;
+    top: 70%;
+    left: 6%;
+  }
+  
+  .challenges h4.mobile {
+    top: 70%;
+    left: 2%;
+    color: #FFFFFF;
+    font-weight: 600;
+  }
+  
+  .now-then .sub-banner {
+    background-color: var(--purple);
+  }
+  
+  .download-div {
+    height: 250px;
+  }
+  
+  .download h1 {
+    font-size: 80px !important;
+  }
+  
+  .email-updates .download-btn-green {
+    padding: 20px 30px;
+    font-size: 25px;
+  }
+  
+  .email-updates-square {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  
+  .header h5 {
+    letter-spacing: 1px;
+  }
+  
+  .mobile-footer p {
+    font-size: 14px;
+  }
+  
+  /* .email-updates .col-lg-12 {
+    padding: 0;
+  } */
 }
-
-.header .mobile-only img {
-  display: block;
-  width: 85%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.social-media-feed .fa {
-  font-size: 20px;
-  color: white;
-  background-color: black;
-  border-radius: 50%;
-  padding: 10px;
-  margin-top: 25px;
-}
-
-.social-media-feed .fa:not(:last-child) {
-  margin-right: 20px;
-}
-
-.social-media-feed .fa-facebook-f {
-  padding: 10px 14px;
-}
-
-.homepage .left-img {
-  margin-right: 10px;
-}
-
-.homepage .right-img {
-  margin-left: 10px;
-}
-
-.challenges .btn-green {
-  top: 90%;
-  left: 22%;
-  z-index: 3;
-}
-
-.challenges h4 {
-  font-size: 18px !important;
-  top: 70%;
-  left: 6%;
-}
-
-.challenges h4.mobile {
-  top: 70%;
-  left: 2%;
-  color: #FFFFFF;
-  font-weight: 600;
-}
-
-.now-then .sub-banner {
-  background-color: var(--purple);
-}
-
-.download-div {
-  height: 250px;
-}
-
-.download h1 {
-  font-size: 80px !important;
-}
-
-.email-updates .download-btn-green {
-  padding: 20px 30px;
-  font-size: 25px;
-}
-
-.email-updates-square {
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
-}
-
-.header h5 {
-  letter-spacing: 1px;
-}
-
-/* .email-updates .col-lg-12 {
-  padding: 0;
-} */
