@@ -282,9 +282,26 @@ label[for=name], label[for=email] {
 
 .header .mobile-only img {
   display: block;
-  width: 80%;
+  width: 85%;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.social-media-feed .fa {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.social-media-feed .fa:not(:last-child) {
+  margin-right: 20px;
+}
+
+.social-media-feed .fa-facebook-f {
+  padding: 10px 14px;
 }
 
 .homepage .left-img {
@@ -330,21 +347,8 @@ label[for=name], label[for=email] {
   margin-top: 30px;
 }
 
-.social-media-feed .fa {
-  font-size: 20px;
-  color: white;
-  background-color: black;
-  border-radius: 50%;
-  padding: 10px;
-  margin-top: 20px;
-}
-
-.social-media-feed .fa:not(:last-child) {
-  margin-right: 20px;
-}
-
-.social-media-feed .fa-facebook-f {
-  padding: 10px 15px;
+.header h5 {
+  letter-spacing: 1px;
 }
 
 /* .email-updates .col-lg-12 {
