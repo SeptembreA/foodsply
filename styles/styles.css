@@ -326,6 +326,13 @@ label[for=name], label[for=email] {
   left: 6%;
 }
 
+.challenges h4.mobile {
+  top: 70%;
+  left: 2%;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
 .now-then .sub-banner {
   background-color: var(--purple);
 }
