@@ -125,8 +125,10 @@ header .img-div img {
 }
 
 .btn-green {
-  background-color: #6cb800;
-  border: 5px solid #3db500;
+  /* background-color: #6cb800; */
+  background-color: #8aea02;
+  /* border: 5px solid #3db500; */
+  border: 5px solid #5bb72d;
   position: absolute;
   top: 50%;
   left: 42%;
