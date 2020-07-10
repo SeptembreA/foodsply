@@ -278,7 +278,7 @@ label[for=name], label[for=email] {
 /* Mobile Styling */
 
 @media (min-width: 320px)  {
-  .header span.mobile-only {
+  .header h4.mobile-only {
     font-size: 19px !important;
     display: block;
   }
@@ -364,8 +364,8 @@ label[for=name], label[for=email] {
   .mobile-footer p {
     font-size: 14px;
   }
-  
-  /* .email-updates .col-lg-12 {
-    padding: 0;
-  } */
+}
+
+@media (min-width: 600px) {
+
 }
